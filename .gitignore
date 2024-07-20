@@ -1,0 +1,59 @@
+# Bazel build outputs
+bazel-*
+
+# Bazel symlink forest
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-genfiles
+
+# Bazel's local execution root directory
+execroot
+
+# Bazel's output base directory
+output_base
+
+# Bazel's action cache
+action_cache
+
+# Bazel's disk cache
+disk_cache
+
+# Bazel's remote cache
+remote_cache
+
+# Bazel's server logs
+server_logs
+
+# Bazel's external dependencies
+external
+
+# Bazel's module cache (bzmod specific)
+.bazel_module_cache
+
+# User-specific Bazel configuration
+.bazelrc.user
+
+# User-specific local configuration
+.local_config_sh
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,4 @@
+module(
+    name = "eigen_playground",
+    version = "1.0",
+)

@@ -1,0 +1,4 @@
+Run
+```shell
+bazel run //:eigen_playground
+```
